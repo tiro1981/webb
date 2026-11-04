@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodie — Restaurant</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header" id="home">
+      <img class="header-bg" src="./img/banner-bg.png" alt="" />
+
+      <div class="container">
+        <nav class="nav">
+          <a href="#home" class="logo">FOODIE</a>
+
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <a href="#">
+                <img src="./icon/cart.png" alt="Savat" width="22" height="22" />
+              </a>
+            </li>
+          </ul>
+
+          <a href="#contact" class="btn btn-white">Booking Now</a>
+        </nav>
+
+        <div class="hero">
+          <div class="hero-text">
+            <h1>Your Favourite Food Delivered Hot &amp; Fresh</h1>
+            <p>
+              Healthy switcher chefs do all the prep work, like peeding,
+              chopping &amp; marinating, so you can cook a fresh food.
+            </p>
+            <a href="#work" class="btn btn-orange">Order Now &rarr;</a>
+          </div>
+
+          <img
+            class="hero-img"
+            src="./img/hero-food.png"
+            alt="Tovuq go'shti, makkajo'xori va sabzavotli salat"
+          />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="about" id="about">
+        <img class="about-bg" src="./img/about-bg.png" alt="" />
+
+        <div class="container about-inner">
+          <img
+            class="about-img"
+            src="./img/about-food.png"
+            alt="Avokado, no'xat va sabzavotli salat"
+          />
+
+          <div class="about-text">
+            <span class="subtitle">About</span>
+            <h2>Food Is An Important Part Of A Balanced Diet</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
+              elit. Dolor turpis molestie dui magnis facilisis at fringilla
+              quam.
+            </p>
+            <p>
+              Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
+              facilisis at fringilla quam.
+            </p>
+
+            <div class="about-buttons">
+              <a href="#work" class="btn btn-orange">Learn More</a>
+              <a href="#" class="watch">
+                <img src="./icon/play.png" alt="Video" width="48" height="48" />
+                Watch Video
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work" id="work">
+        <div class="container">
+          <div class="section-head">
+            <span class="subtitle">Work</span>
+            <h2>How It Works</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
+              elit. Dolor turpis molestie dui magnis facilisis at fringilla
+              quam.
+            </p>
+          </div>
+
+          <div class="cards">
+            <div class="card">
+              <img
+                src="./icon/meals.png"
+                alt="Taom tanlash"
+                width="70"
+                height="70"
+              />
+              <h3>Pick Meals</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Maecenas sed et sagittis
+                dui elementum interdum facilisi bibendum.
+              </p>
+            </div>
+
+            <div class="card">
+              <img
+                src="./icon/pointer.png"
+                alt="Tanlash"
+                width="70"
+                height="70"
+              />
+              <h3>Choose How Often</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Maecenas nisl et
+                sagittis.
+              </p>
+            </div>
+
+            <div class="card">
+              <img
+                src="./icon/truck.png"
+                alt="Yetkazib berish"
+                width="70"
+                height="70"
+              />
+              <h3>Fast Deliveries</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Maecenas nisl et
+                sagittis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial" id="testimonials">
+        <div class="container">
+          <div class="section-head">
+            <span class="subtitle">Testimonial</span>
+            <h2>What They Are Saying</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
+              elit. Dolor turpis molestie dui magnis facilisis at fringilla
+              quam.
+            </p>
+          </div>
+
+          <div class="review">
+            <img class="avatar" src="./img/avatar.png" alt="John Doe surati" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
+              elit. Dolor turpis molestie dui magnis facilisis at fringilla
+              quam.
+            </p>
+            <img
+              src="./icon/ratings.png"
+              alt="5 yulduz"
+              width="116"
+              height="20"
+            />
+            <h4>John Doe</h4>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2>Have Question In Mind? <br />Let Us Help You</h2>
+
+          <form class="form">
+            <label for="email" class="hidden-label">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="yourmail@gmail.com"
+              required
+            />
+            <button type="submit" class="btn btn-orange">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <a href="#home" class="logo logo-dark">FOODIE</a>
+          <a href="#">
+            <img
+              src="./icon/socials.png"
+              alt="Twitter, LinkedIn, YouTube, Facebook"
+              width="134"
+              height="34"
+            />
+          </a>
+        </div>
+
+        <div class="footer-links">
+          <ul>
+            <li><a href="#">Quality</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Share</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="tel:2465532763">246-5532-7763</a></li>
+            <li><a href="mailto:hello@food.com">hello@food.com</a></li>
+            <li><a href="mailto:press@food.com">press@food.com</a></li>
+            <li><a href="mailto:contact@food.com">contact@food.com</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="#">Terms &amp; Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
